@@ -5,5 +5,8 @@
   "description": "A new home for the web",
   "incognito": "split",
   "chrome_url_overrides": { "newtab": "home.html"},
-  "permissions": ["http://www.brainyquote.com/link/quotebr.js"]
+  "permissions": [
+  	"http://www.brainyquote.com/link/quotebr.js",
+  	"geolocation"
+  ]
 }

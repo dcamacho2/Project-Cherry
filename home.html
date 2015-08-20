@@ -3,15 +3,22 @@
 	<head>
 		<title>Project Cherry</title>
 		<script type="text/javascript" src="js/quote.js"></script>
-		<script type="text/javascript" src="js/css.js"></script>
+		<!-- <script type="text/javascript" src="js/css.js"></script> -->
+		<script type="text/javascript" src="js/weather.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<!-- <link rel="stylesheet" type="text/css" href="css/main.css"> -->
 	</head>
 	<body>
 		<div id="error"></div>
 		<div class="quoteContainer">
 			<div id="quote" class="text-center"></div>
 			<div id="author" class="text-center"></div>
+		</div>
+		<div class="weatherContainer">
+			<div class="location" id="city">
+				<p>Loading...</p>
+			</div>
+			<div class="weather"></div>
 		</div>
 	</body>
 </html>

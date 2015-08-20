@@ -30,8 +30,8 @@ function handler() { //could have been done with jquery, but I wanted to try doi
 		if (httpRequest.status === 200){
 			response = httpRequest.responseText;
 			parsingShit(response);
-			console.log(quote);
-			console.log(author);
+			// console.log(quote);
+			// console.log(author);
 		} else if (httpRequest === 400){
 			document.getElementById('error').innerText = "Something got fucked up!";
 		} else {
