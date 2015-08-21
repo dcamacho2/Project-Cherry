@@ -2,6 +2,10 @@ html {
 	min-height: 100%;
 }
 
+h1, h4 {
+	font-weight: lighter;
+}
+
 body {
 	overflow: hidden;
     background-repeat: no-repeat!important;
